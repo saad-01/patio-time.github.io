@@ -1,0 +1,156 @@
+#header {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url("./images/shop-bg-darken.jpg");
+}
+
+.c-title {
+    font-size: 12vh;
+    margin: 75px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.shop-padding {
+    padding: 70px;
+}
+
+.results {
+    color: black;
+    font-size: 3.2vh;
+    font-family: 'Jost', sans-serif;
+    display: inline-block
+}
+
+.orderby {
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    outline: none;
+}
+
+.orderby:active {
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    font-family: 'Jost', sans-serif;
+}
+
+.item-n {
+    color: black;
+    font-weight: 600;
+    font-size: 4vh;
+}
+
+.star {
+    color: #ffc107;
+    font-size: 11px;
+    display: block;
+}
+
+.price-n {
+    font-family: 'Jost', sans-serif;
+    font-size: 3vh;
+    color: #666;
+    font-weight: 400;
+}
+
+.text-center {
+    margin: 15px 0px 40px;
+    width: 91%;
+}
+
+.row>.m-items>a>.imgs-box>img {
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.disc {
+    font-family: 'Jost', sans-serif;
+    font-size: 3vh;
+    color: #666;
+    font-weight: 400;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.mtt {
+    margin-top: 25px;
+}
+
+.imgs-box {
+    position: relative;
+}
+
+.btn-shop {
+    width: 72%;
+    color: black;
+    background-color: white;
+    padding: 10px 0px;
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    right: 14%;
+    bottom: 5%;
+    border-radius: 0;
+    font-size: 11px;
+    font-weight: 500;
+    outline: none;
+    display: none;
+    transition: .4s;
+}
+
+.btn-shop:hover {
+    background-color: #dd5903;
+    color: white;
+}
+
+.imgs-box:hover .btn-shop {
+    display: inline-block;
+    transition: .4s;
+}
+
+.circle1{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: white;
+    background-color: #dd5903;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.circle2{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    text-align: center;
+}
+
+.img-db {
+    width: 100%;
+}
+
+.p-pg {
+    text-decoration: none;
+}

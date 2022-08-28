@@ -1,0 +1,802 @@
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
+@media (max-width:1300px) {
+    .chef-img2 {
+        width: 430px;
+    }
+
+    .m-padding {
+        padding: 110px 40px 2px 40px;
+    }
+
+    .chef-padding {
+        padding: 120px 60px;
+    }
+}
+
+@media (max-width:1199px) {
+    .chef-img1 {
+        width: 280px;
+        height: 460px;
+        margin-top: 135px;
+    }
+
+    .chef-img2 {
+        width: 375px;
+        height: 480px;
+        position: absolute;
+        left: 20%;
+        z-index: 2;
+    }
+
+    .fm {
+        margin-left: 0.5rem !important;
+    }
+
+    .mg-l {
+        padding-left: 15px;
+    }
+
+    .pd-l {
+        padding-left: 0px;
+    }
+
+    .img1-head {
+        font-size: 40px;
+    }
+
+    .pt-title {
+        font-size: 70px;
+    }
+
+    .g-img {
+        margin-top: 60px;
+        height: 640px;
+    }
+
+    .sub-title-m {
+        font-size: 60px;
+    }
+
+    .c-title {
+        font-size: 12vh
+    }
+
+    .item-n {
+        font-size: 3.2vh
+    }
+
+    .price-n {
+        font-size: 2.2vh
+    }
+
+    .disc {
+        font-size: 2.2vh
+    }
+
+    .sb-txt {
+        margin-top: 0px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .nav-btn {
+        display: none;
+    }
+
+    .img-sec1 {
+        order: 1;
+    }
+
+    .cheff {
+        order: -1;
+    }
+
+    .chef-sec1 {
+        flex-direction: column;
+    }
+
+    .chef-sec2 {
+        display: block !important;
+    }
+
+    .table-head {
+        font-size: 50px;
+    }
+
+    .book-title {
+        left: 28%;
+    }
+
+    .book-title::after,
+    .book-title::before {
+        margin: 5px 8px;
+    }
+
+    .tb-btn {
+        padding: 10px 3.5rem;
+    }
+
+    .algn {
+        text-align: left !important;
+        margin-top: 1.5rem !important;
+    }
+
+    .chef-headd {
+        color: #dd5903;
+        font-size: 18px;
+        font-family: 'Jost', sans-serif;
+        letter-spacing: 1.5px;
+        font-weight: 500;
+    }
+
+    .chef-headd::after {
+        display: inline-block;
+        content: "";
+        border-top: 2px solid #e47e3a;
+        width: 4.5rem;
+        margin: 5px 2rem;
+        transform: translateY(10%);
+        opacity: 0.7;
+    }
+
+    .chef-headd::before {
+        display: inline-block;
+        content: "";
+        border-top: none;
+        width: 0;
+        margin: 0;
+        transform: translateY(10%);
+        opacity: 0.7;
+    }
+
+    .chef-btn {
+        margin-bottom: 40px;
+    }
+
+    .sub-title-m {
+        font-size: 45px;
+    }
+
+    .g-img {
+        margin-top: 60px;
+        height: 520px;
+    }
+
+    .f-img {
+        width: 94%;
+        height: 270px;
+    }
+
+    .m-title {
+        font-size: 16px;
+    }
+
+    .chef2-padding {
+        padding-top: 25px;
+    }
+
+    .cheff {
+        margin-top: 0px;
+        margin-left: 0%;
+    }
+
+    .chef-img1 {
+        margin-top: 110px;
+        margin-left: 50px;
+    }
+
+    .chef-img2 {
+        left: 38%;
+    }
+
+    .fork-img {
+        height: 384px;
+    }
+
+    .cta-img5 {
+        height: 192px;
+    }
+
+    .cta-img2 {
+        height: 192px;
+    }
+
+    .img-box {
+        height: 192px;
+        font-size: 23px;
+    }
+
+    .mc-h {
+        font-size: 1.75rem;
+    }
+
+    .flex-cta {
+        display: contents;
+    }
+
+    .col-md-6 {
+        display: inline-block;
+    }
+
+    .col-md-3 {
+        display: inline-grid;
+    }
+
+    .dropdown,
+    .dropend,
+    .dropstart,
+    .dropup {
+        background-color: black;
+    }
+
+    .head-link {
+        padding-left: 50px;
+    }
+
+    .table-head {
+        font-size: 40px;
+    }
+
+    .item-n {
+        font-size: 3vh
+    }
+
+    .price-n {
+        font-size: 2vh
+    }
+
+    .disc {
+        font-size: 2vh
+    }
+
+    .shop-padding {
+        padding: 60px 45px 60px 45px;
+    }
+
+    .results {
+        font-size: 2.7vh;
+    }
+
+    .blog-padding {
+        padding: 80px 30px 20px 30px;
+    }
+
+    .contact-title {
+        font-size: 60px;
+    }
+
+    .head-txt {
+        font-size: 35px;
+    }
+
+    .loc-img {
+        width: 96%;
+    }
+
+    .email {
+        width: 65%;
+    }
+
+    .nw-hd {
+        font-size: 35px;
+    }
+
+    .btn-shop {
+        display: inline-block;
+    }
+    
+    .btnn-shop {
+        display: inline-block;
+    }
+
+    .frm-lbl {
+        margin-top: 15px;
+    }
+
+    .mss-3 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:848px) {
+    .g-img {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width:767px) {
+    .menu-align {
+        text-align: center;
+    }
+
+    .jf-c {
+        justify-content: center !important;
+    }
+
+    .mg-t {
+        margin-top: 100px;
+    }
+
+    .fork-img {
+        height: 430px;
+    }
+
+    .cta-img2 {
+        height: 430px;
+    }
+
+    .cta-img5 {
+        height: 430px;
+    }
+
+    .cta-img6 {
+        height: 430px;
+    }
+
+    .chef-img2 {
+        position: relative;
+        margin-top: 40px;
+        left: 0%;
+        width: 460px;
+    }
+
+    .chef-img1 {
+        margin: 0%;
+    }
+
+    .img-sec1 {
+        text-align: center;
+    }
+
+    .crt-txt {
+        text-align: center;
+    }
+
+    .foot-link {
+        justify-content: center;
+    }
+
+    .f-img {
+        height: 400px;
+    }
+
+    .g-img {
+        display: none;
+    }
+
+    .chef2-pad {
+        margin-left: 0% !important;
+    }
+
+    .chef-img3 {
+        width: 50%;
+        height: 430px;
+    }
+
+    .chef-img4 {
+        height: 400px;
+    }
+
+    .tb-btn {
+        top: 72%;
+        left: 33%;
+    }
+
+    .book-title {
+        left: 16%;
+    }
+
+    .table-head {
+        left: 26%;
+    }
+
+    .custom {
+        width: 28%;
+        left: 4%;
+    }
+
+    .tb-date {
+        width: 28%;
+        left: 36%;
+    }
+
+    .custom-time {
+        width: 28%;
+        left: 68%;
+    }
+
+    .chef-head2 {
+        font-size: 40px;
+    }
+
+    .pt-title {
+        font-size: 40px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    .shop-padding {
+        padding: 60px 30px 60px 30px;
+    }
+
+    .c-title {
+        font-size: 10vh;
+    }
+
+    .item-n {
+        font-size: 3.14vh;
+    }
+
+    .price-n {
+        font-size: 2.5vh;
+    }
+
+    .disc {
+        font-size: 2.5vh;
+    }
+
+    .blog-title {
+        font-size: 50px;
+        margin: 70px 0px 70px 0px;
+    }
+
+    #location .text-end {
+        text-align: center !important;
+        margin-top: 60px;
+    }
+
+    #location {
+        padding: 130px 50px 100px 50px;
+    }
+
+    #touch {
+        padding: 110px 50px;
+    }
+
+    .cnt-frm {
+        margin-top: 60px;
+    }
+
+    .pd-nm {
+        margin-top: 40px;
+    }
+
+    
+    
+}
+
+@media (max-width:575px) {
+    .chef-img2 {
+        width: 230px;
+        height: 250px;
+    }
+
+    .chef-img1 {
+        width: 230px;
+        height: 330px;
+    }
+
+    .cta-img2 {
+        height: 320px;
+        width: 100%;
+    }
+
+    .cta-img5 {
+        height: 320px;
+        width: 100%;
+    }
+
+    .cta-img6 {
+        height: 320px;
+        width: 100%;
+    }
+
+    .foot-brand {
+        font-size: 30px;
+    }
+
+    .fa-2x {
+        font-size: 1em;
+    }
+
+    .book-title {
+        font-size: 14px;
+        left: 22%;
+    }
+
+    .book-title::after,
+    .book-title::before {
+        width: 50px;
+    }
+
+    .table-head {
+        font-size: 25px;
+        left: 32%;
+    }
+
+    .custom {
+        width: 100%;
+        left: 0%;
+        top: 50%;
+    }
+
+    .custom-time {
+        width: 100%;
+        left: 0%;
+        top: 70%
+    }
+
+    .tb-date {
+        width: 100%;
+        left: 0%;
+        top: 60%;
+    }
+
+    .tb-btn {
+        top: 80%;
+        left: 30%;
+    }
+
+    .chef-head2 {
+        font-size: 30px;
+    }
+
+    .txt {
+        font-size: 16px;
+    }
+
+    .chef-headd {
+        font-size: 14px;
+    }
+
+    .chef-headd::after {
+        display: none
+    }
+
+    .chef-head {
+        font-size: 14px;
+    }
+
+    .chef-head::after {
+        display: none
+    }
+
+    .fork-img {
+        height: 320px;
+        width: 100%;
+    }
+
+    .chef-img3 {
+        width: 100%;
+        height: 350px;
+    }
+
+    .chef-img4 {
+        height: 330px;
+        width: 93%;
+        margin-top: 50px;
+    }
+
+    .img-head {
+        font-size: 15px;
+    }
+
+    .img-box {
+        font-size: 18px;
+    }
+
+    .cta-btn {
+        font-size: 12px;
+    }
+
+    .cta-btn1 {
+        font-size: 12px;
+    }
+
+    .img1-head {
+        font-size: 30px;
+    }
+
+    .img-1 {
+        font-size: 15px;
+    }
+
+    .mb-btn {
+        padding: 6px 1.25rem;
+        font-size: 12px;
+    }
+
+    .menu-items {
+        font-size: 20px;
+    }
+
+    .pricing {
+        font-size: 20px;
+    }
+
+    .mc-padding {
+        padding: 80px 15px;
+    }
+
+    .mc-h {
+        font-size: 1.5rem;
+    }
+
+    .mc-sub {
+        font-size: 12px;
+    }
+
+    .f-img {
+        height: 240px;
+        width: 240px;
+    }
+
+    .menu-btn {
+        font-size: 12px;
+    }
+
+    .sub-title-m {
+        font-size: 30px;
+    }
+
+    .sub-text {
+        font-size: 18px;
+    }
+
+    .m-title::after {
+        width: 3.5rem;
+        margin: 5px 5px;
+    }
+
+    .m-title {
+        font-size: 13px;
+    }
+
+    .sub-title {
+        font-size: 16px;
+    }
+
+    .pt-title {
+        font-size: 35px;
+    }
+
+    .mail {
+        font-size: 11px;
+        border-bottom: none;
+    }
+
+    .icon-pd {
+        padding: 2px;
+    }
+
+    .mg-l {
+        padding-left: 0px;
+        display: inline-block;
+    }
+
+    .title::before,
+    .title::after {
+        width: 33px;
+        margin: 5px 0.25rem;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .shop-row {
+        flex-direction: column;
+    }
+
+    .post-heading {
+        font-size: 22px;
+    }
+
+    .post-txt {
+        font-size: 14px;
+    }
+
+    .blog-title {
+        font-size: 40px;
+    }
+
+    .head {
+        font-size: 11px;
+    }
+
+    .contact-title {
+        margin: 160px 0px 70px 0px;
+        font-size: 40px;
+    }
+
+    .cnt {
+        height: 440px;
+    }
+
+    #location {
+        padding: 80px 50px 100px 50px;
+    }
+
+    #touch {
+        padding: 80px 50px;
+    }
+
+    .head-txt {
+        font-size: 25px;
+    }
+
+    .sb-txt {
+        font-size: 18px;
+    }
+
+    .art-txt {
+        font-size: 16px;
+    }
+
+    .nw-hd {
+        font-size: 25px;
+    }
+
+    .nw-txt {
+        font-size: 14px;
+    }
+
+    .nw-sb {
+        margin-top: 85px;
+        font-size: 15px;
+    }
+
+    .sec-pad {
+        padding:30px;   
+    }
+
+    .tab-pad {
+        padding: 0px 30px 20px 30px;
+    }
+
+    .rel-pad {
+        padding: 60px 30px 70px 30px;
+    }
+
+    .pd-str {
+        font-size: 11px;
+    }
+
+    .pd-nm {
+        font-size: 1.7rem;
+    }
+
+
+}
+
+@media (max-width:400px) {
+    .book-title {
+        left: 5%;
+    }
+
+    .table-head {
+        left: 23%;
+    }
+
+    .tb-btn {
+        left: 20%;
+    }
+
+    .cart-btn {
+        padding: 8px 10px;
+    }
+    
+}

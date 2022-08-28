@@ -1,0 +1,349 @@
+.sec-pad {
+    padding: 80px;
+}
+
+.zm-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.pd-img {
+    width: 97%;
+}
+
+.pd-nm {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: black;
+}
+
+.pd-pr {
+    font-size: 1.32rem;
+    font-family: 'Jost', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+.pd-dl {
+    font-size: 1.1rem;
+    font-family: 'Jost', sans-serif;
+    color: rgb(36, 33, 33);
+    text-align: justify;
+}
+
+.pd-hds {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    color: black;
+}
+
+.tags {
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    color: rgb(36, 33, 33);
+    margin-left: 5px;
+}
+
+.add-to-cart {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 0px;
+}
+
+.as-btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    border: 1px solid rgb(211, 209, 209);
+    font-size: 20px;
+    padding: 5px 13px;
+}
+
+.txt-in {
+    font-family: 'Jost', sans-serif;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 30%;
+    border-top: 1px solid rgb(211, 209, 209);
+    border-bottom: 1px solid rgb(211, 209, 209);
+    text-align: center;
+    font-size: 18px;
+}
+
+.add-cart {
+    display: flex;
+}
+
+.add-cart button:nth-child(1) {
+    padding: 5px 18px;
+}
+
+.cart-btn {
+    background-color: black;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    padding: 8px 45px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.cart-btn:hover {
+    background-color: #dd5903;
+}
+
+.pd-str {
+    font-size: 13px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.rev {
+    font-size: 15px;
+    margin-left: 10px;
+    color: rgb(36, 33, 33);
+    ;
+    font-family: 'Jost', sans-serif;
+}
+
+.tab-pad {
+    padding: 0px 80px 20px 80px;
+
+}
+
+.tabs {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav-tabs .nav-link.active {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    color: black;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #dd5903;
+    outline: none;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    color: black;
+    margin-right: 20px;
+}
+
+#tabs .nav-link:hover {
+    color: rgb(68, 67, 67);
+}
+
+#tabs .nav-link {
+    padding: 0;
+    font-size: 17px;
+}
+
+.nav-tabs .nav-link.active:hover {
+    border: none;
+    border-bottom: 2px solid #dd5903;
+}
+
+.comment-text {
+    font-family: 'Jost', sans-serif;
+    margin-left: 20px;
+}
+
+.meta {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 350;
+    color: rgb(36, 33, 33);
+}
+
+.description {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-family: 'Jost', sans-serif;
+    color: rgb(36, 33, 33);
+    text-align: justify;
+}
+
+.comment-box {
+    display: flex;
+}
+
+.date {
+    font-size: 14px;
+}
+
+.frm-lbl {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+}
+
+form>.row>div>input {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    line-height: 2;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+}
+
+
+
+#msg {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    line-height: 2;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.btn-sb {
+    margin-top: 40px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #f0670c;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 30px;
+    display: block;
+}
+
+.rev-hd {
+    color: black;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.form-ins {
+    font-family: 'Jost', sans-serif;
+    color: rgb(36, 33, 33);
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.check-box {
+    font-family: 'Jost', sans-serif;
+    color: rgb(36, 33, 33);
+    font-weight: 400;
+}
+
+.rate {
+    padding: 0 10px;
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>.lbl {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 22px;
+    color: #ccc;
+}
+
+.rate:not(:checked)>.lbl:before {
+    content: '★ ';
+}
+
+.rate>input:checked~.lbl {
+    color: #ffc700;
+}
+
+.rate:not(:checked)>.lbl:hover,
+.rate:not(:checked)>.lbl:hover~.lbl {
+    color: #ffc700;
+}
+
+.rate>input:checked+.lbl:hover,
+.rate>input:checked+.lbl:hover~.lbl,
+.rate>input:checked~.lbl:hover,
+.rate>input:checked~.lbl:hover~.lbl,
+.rate>.lbl:hover~input:checked~.lbl {
+    color: #ffc700;
+}
+
+.rating-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.related-pd {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.rel-pad {
+    padding: 60px 80px 70px 80px;
+
+}
+
+.rel-pad>.row>.m-items>a>.imgs-box>img {
+    width: 92%;
+    cursor: pointer;
+}
+
+.ft-s {
+    font-size: 3.6vh;
+}
+
+.fnt-s {
+    font-size: 2.7vh;
+}
+
+.btnn-shop {
+    width: 72%;
+    color: black;
+    background-color: white;
+    padding: 10px 0px;
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    right: 18%;
+    bottom: 5%;
+    border-radius: 0;
+    font-size: 11px;
+    font-weight: 500;
+    outline: none;
+    display: none;
+    transition: .4s;
+}
+
+.btnn-shop:hover {
+    background-color: #dd5903;
+    color: white;
+}
+
+.mss-3 {
+    margin-left: 1rem;
+}
+
+.sold-itm {
+    color: red;
+    font-family: 'Jost', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 30px 0px;
+}
